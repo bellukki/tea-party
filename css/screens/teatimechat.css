@@ -203,7 +203,7 @@
 
 .reply:focus-within {
   z-index: 99;
-  transform: translateY(55px);
+  transform: translateY(40px);
 }
 .reply__bar:focus-within .keyboard {
   transform: translateY(-105%);

@@ -10,54 +10,41 @@
   }
 }
 .splash-screen,
-.mobile_bg_ballroom {
-  background-image: url("../../img/tea-flower.jpeg");
+.mobile_bg_ballroom,
+.splash-screen_teatime,
+.mobile_bg_teatime,
+.splash-screen_teatimechat,
+.mobile_bg_teatimechat,
+.splash-screen_dessert,
+.mobile_bg_dessert,
+.splash-screen_more,
+.mobile_bg_more {
   position: absolute;
   height: 100vh;
   width: 100vw;
   min-width: 370px;
   background-size: cover;
   background-position: center;
+}
+.splash-screen,
+.mobile_bg_ballroom {
+  background-image: url("../../img/tea-flower.jpeg");
 }
 .splash-screen_teatime,
 .mobile_bg_teatime {
   background-image: url("../../img/tea-herbs.jpg");
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  min-width: 370px;
-  background-size: cover;
-  background-position: center;
 }
 .splash-screen_teatimechat,
 .mobile_bg_teatimechat {
   background-image: url("../../img/tea-leaves.jpg");
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  min-width: 370px;
-  background-size: cover;
-  background-position: center;
 }
 .splash-screen_dessert,
 .mobile_bg_dessert {
   background-image: url("../../img/tea-dessert.jpg");
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  min-width: 370px;
-  background-size: cover;
-  background-position: center;
 }
 .splash-screen_more,
 .mobile_bg_more {
   background-image: url("https://www.datocms-assets.com/20941/1618830991-adobestock304857713.jpeg?auto=compress&dpr=0.95&fm=jpg&w=850");
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  min-width: 370px;
-  background-size: cover;
-  background-position: center;
 }
 .splash-screen_dessert,
 .splash-screen_teatimechat,
