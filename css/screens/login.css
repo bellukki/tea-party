@@ -1,0 +1,95 @@
+.main {
+  height: 100vh;
+}
+.welcome-header {
+  padding: 17% 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  padding: 3% 0;
+  font-family: var(--fontB);
+  font-size: 2rem;
+}
+
+.welcome-header__text {
+  width: 65%;
+  opacity: 0.8;
+  font-family: var(--fontSB);
+  line-height: 140%;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 8%;
+  font-family: var(--font);
+}
+
+#login-form input,
+.login-box {
+  border: none;
+  padding: 5% 0;
+  font-family: var(--fontSB);
+  font-size: 1.4rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+#login-form input:focus {
+  outline: none;
+  color: var(--darkgreen);
+  opacity: 1;
+  border-color: var(--green);
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input[type="submit"],
+.login-box {
+  background-color: var(--flower);
+  cursor: pointer;
+  padding: 5% 0;
+  margin: 5% 0;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#login-form input[type="submit"]:hover,
+.login-box:hover {
+  background-color: var(--grape);
+}
+#login-form a {
+  text-align: center;
+  font-family: var(--fontEL);
+  font-size: 1.2rem;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+#login-form a:hover {
+  color: black;
+  opacity: 1;
+}
+.login-box {
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+  margin-top: 0;
+}
+.mobile_bg {
+  background-image: url("../../img/tea-herbs.jpg");
+  z-index: -1;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  min-width: 370px;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(120%);
+  opacity: 0.2;
+}

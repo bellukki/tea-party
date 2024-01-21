@@ -1,0 +1,15 @@
+.badge {
+  background-color: var(--darkgreen);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--yellow);
+  font-weight: 600;
+}
+
+.sun__dot {
+  position: relative;
+}

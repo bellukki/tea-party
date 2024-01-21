@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@800&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+@import "components/splash.css";
+@import "components/keyboard.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/ballroom.css";
+@import "screens/dessert.css";
+@import "screens/more.css";
+@import "screens/environment.css";
+@import "screens/teatimechat.css";
+@import "screens/playlist.css";
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: var(--darkgreen);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 370px;
+  overflow: hidden;
+  color: var(--darkgreen);
+  font-family: var(--fontSB);
+  height: 100vh;
+}
+
+header,
+.status-bar {
+  font-family: var(--fontEL);
+  letter-spacing: 2px;
+}

@@ -1,0 +1,47 @@
+.status-bar {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  min-width: 370px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.status-bar__column {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  padding: 2%;
+  font-size: 1rem;
+  font-family: var(--fontB);
+}
+.status-bar__column:first-child {
+  justify-content: flex-start;
+  letter-spacing: 0.5px;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  letter-spacing: px;
+}
+.status-bar__column:nth-child(2) span {
+  width: 70%;
+  text-align: center;
+}
+.status-bar__column:last-child {
+  justify-content: flex-end;
+  letter-spacing: -1px;
+  gap: 1%;
+}
+.status-bar__column span.material-symbols-outlined:first-child {
+  font-size: 1.2rem;
+  padding-right: 2%;
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 200, "opsz" 48;
+}
+
+.status-bar__column span.material-symbols-outlined:last-child {
+  rotate: 180deg;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}

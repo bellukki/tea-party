@@ -1,0 +1,70 @@
+.more-screen .user-component {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.more-screen .user-component:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.more-header .screen-header__icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.more-header .screen-header__icons input {
+  right: 3%;
+}
+.more-message span {
+  color: var(--yellow);
+  font-size: 2.3rem;
+  font-variation-settings: "FILL" 1, "wght" 300, "GRAD" 200, "opsz" 48;
+}
+.more-icon {
+  margin: 2%;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3%;
+}
+.more-icon .icon-row {
+  background-color: rgba(255, 255, 255, 0);
+}
+.more-icon .icon-row .icon-row__icon {
+  width: 20%;
+}
+.more-suggestions {
+  border-top: var(--main-border);
+  margin: 5% 0;
+  padding: 3% 0;
+}
+.more-suggestions__title {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.9;
+  padding: 3% 0;
+  font-size: 1.4rem;
+  font-family: var(--fontB);
+  color: var(--darkgreen);
+  text-shadow: 1px 1px 2px var(--flower), 0 0 1em var(--red),
+    0 0 0.2em var(--yellow);
+}
+
+.more-suggestions__icons {
+  display: flex;
+}
+.more-suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--green);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.more-suggestions__icon-image i {
+  font-size: 32px;
+  color: white;
+}

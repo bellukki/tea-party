@@ -1,0 +1,35 @@
+.icon-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3% 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--green);
+  transition: 0.5s;
+}
+.icon-row__icon:hover {
+  color: var(--red);
+  cursor: pointer;
+}
+
+.icon-row__icon span {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+  font-size: 1.3rem;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+.icon-row__icon span:first-child {
+  font-size: 2.5rem;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 200, "opsz" 48;
+}

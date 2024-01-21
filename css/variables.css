@@ -1,0 +1,18 @@
+:root {
+  --horizontal-space: 3%;
+  --silver: #a7a9a8;
+  --green: #4c5b47;
+  --darkgreen: #141b0d;
+  --lightgreen: #7a8756;
+  --red: #992436;
+  --grape: #a974a5;
+  --flower: #d8b5bb;
+  --yellow: #e7de6f;
+  --pine: #844742;
+  --fontEL: "MaruBuriExtraLight";
+  --fontL: "MaruBuriLight";
+  --font: "MaruBuri";
+  --fontSB: "MaruBuriSemiBold";
+  --fontB: "MaruBuriBold";
+  --main-border: 1px solid var(--lightgreen);
+}
