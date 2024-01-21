@@ -22,6 +22,10 @@
 @import "screens/environment.css";
 @import "screens/teatimechat.css";
 @import "screens/playlist.css";
+
+html {
+  font-size: 13px;
+}
 * {
   box-sizing: border-box;
 }
