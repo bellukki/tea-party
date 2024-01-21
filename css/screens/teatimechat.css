@@ -203,9 +203,12 @@
 
 .reply:focus-within {
   z-index: 99;
-  transform: translateY(70px);
+  transform: translateY(55px);
 }
 .reply__bar:focus-within .keyboard {
   transform: translateY(-105%);
   opacity: 1;
+}
+button {
+  color: var(--darkgreen);
 }

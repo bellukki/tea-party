@@ -15,9 +15,10 @@
   font-family: var(--fontB);
 }
 .alt-header__column {
-  width: 33%;
+  width: 26%;
 }
 .alt-header__column:nth-child(2) {
+  width: 48%;
   white-space: nowrap;
   text-align: center;
 }

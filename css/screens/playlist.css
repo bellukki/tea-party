@@ -124,15 +124,12 @@
   background-image: url("https://image.bugsm.co.kr/album/images/200/6757/675773.jpg?version=20231117003008.0");
 }
 .song_list:nth-child(3) div:first-child {
-  background-image: url("https://image.bugsm.co.kr/album/images/200/6757/675773.jpg?version=20231117003008.0");
-}
-.song_list:nth-child(4) div:first-child {
   background-image: url("https://image.bugsm.co.kr/album/images/170/161119/16111969.jpg");
 }
-.song_list:nth-child(5) div:first-child {
+.song_list:nth-child(4) div:first-child {
   background-image: url("https://image.bugsm.co.kr/album/images/170/309544/30954491.jpg");
 }
-.song_list:nth-child(6) div:first-child {
+.song_list:nth-child(5) div:first-child {
   background-image: url("https://image.bugsm.co.kr/album/images/200/8195/819553.jpg?version=20231121005129.0");
 }
 .song_list:last-child div:first-child {
