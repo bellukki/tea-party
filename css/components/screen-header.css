@@ -51,11 +51,7 @@
   opacity: 1;
   right: 27%;
 }
-.screen-header:focus-within .keyboard {
-  z-index: 99;
-  transform: translatex(-3%) translateY(-105%);
-  opacity: 1;
-}
+
 .screen-header__icons input:hover {
   cursor: pointer;
 }
@@ -70,6 +66,22 @@
   }
 }
 
+@keyframes music {
+  0% {
+    transform: none;
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: none;
+    opacity: 0.5;
+  }
+}
+
 .screen-header__icons span:hover {
   color: var(--red);
   cursor: pointer;
@@ -78,7 +90,11 @@
 .screen-header__icons a {
   color: var(--green);
 }
-.screen-header__icons a span:hover {
+.screen-header__icons a:nth-child(n-1) span:hover {
+  animation: music 0.9s linear infinite;
+  will-change: transform;
+}
+.screen-header__icons a:last-child span:hover {
   animation: config 1.2s linear infinite;
   will-change: transform;
 }

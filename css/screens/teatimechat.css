@@ -208,6 +208,7 @@
 .reply__bar:focus-within .keyboard {
   transform: translateY(-105%);
   opacity: 1;
+  visibility: visible;
 }
 button {
   color: var(--darkgreen);
